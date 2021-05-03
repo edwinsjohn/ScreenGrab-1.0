@@ -11,3 +11,5 @@ This is a python script that let's you take screenshots by pressing F10 and also
 ## **Requirments**
 - Python Programing Language 3.7+ (3.9 prefered)
   -[Click To Download](https://www.python.org/downloads/)
+- pip installer:
+   - install modules :  [Run this..](module_install .bat)

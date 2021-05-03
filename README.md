@@ -2,6 +2,8 @@
 This is a python script that let's you take screenshots by pressing F10 and also organize the screenshot day wise and time wise in different  folder
 
 ## **Changes to Do**
->[:book:](screengrab.bat)
+
+> screengrab.bat
+> [:book:](screengrab.bat)
 - C:\Users\sajpu\AppData\Local\Programs\Python\Python39 to your path for python.exe in your system
 - C:\SRC\ to your path where the downloaded file screengrab.py is.

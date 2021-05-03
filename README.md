@@ -13,4 +13,4 @@ This is a python script that let's you take screenshots by pressing F10 and also
   -[Click To Download](https://www.python.org/downloads/)
 - pip installer:
    - install modules :  
-   [Run this](module_install .bat)
+[Run this](module_install .bat)

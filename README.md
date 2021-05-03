@@ -12,4 +12,4 @@ This is a python script that let's you take screenshots by pressing F10 and also
 - Python Programing Language 3.7+ (3.9 prefered)
   -[Click To Download](https://www.python.org/downloads/)
 - pip installer:
-   - install modules :-[Click To Download](https://www.python.org/downloads/)
+   - install modules :-[Click To Download](https://github.com/edwinsjohn/ScreenGrab-1.0/blob/main/module_install%20.bat)

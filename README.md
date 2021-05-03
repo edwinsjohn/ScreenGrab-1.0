@@ -3,4 +3,4 @@ This is a python script that let's you take screenshots by pressing F10 and also
 
 ## **Changes to Do**
 >screengrab.bat
---------------------------------------
+-file

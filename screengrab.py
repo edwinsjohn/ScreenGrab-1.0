@@ -3,17 +3,16 @@ import keyboard
 import os
 import datetime
 import getpass
-# import win10toast
+
 from win10toast import ToastNotifier
 
-# create an object to ToastNotifier class
 n = ToastNotifier()
 
 username = getpass.getuser()
 myScreenshot = pyautogui.screenshot()
 
-folder_selected=f"C:/Users/{username}/Documents/"
-name="S6"
+folder_selected=f"C:/Users/{username}/Documents/"   # Change this directory path according to yout preference
+name="S6"                                           #change this to  rename the root folder
 path = os.path.join(folder_selected,name)
 try:
     os.mkdir(path)
@@ -50,26 +49,26 @@ def dir_build(date_folder,time_name):
 def start():
     timeNow = datetime.datetime.now()
     time_str=timeNow.strftime('%I-%M-%S %m-%d-%Y')
-    if timeNow < todayAt (10,10) and timeNow> todayAt(9):
+    if timeNow < todayAt (10,10) and timeNow> todayAt(9):                                   #change todayAt() to change timeings and time_name = folder name
         time_name_1="1st period"
         time_path=dir_build(date_folder,time_name_1)
         screenshot(time_path, time_str)
 
-    elif timeNow < todayAt (11,20) and timeNow> todayAt(10,10):
+    elif timeNow < todayAt (11,20) and timeNow> todayAt(10,10):                             #change todayAt() to change timeings and time_name = folder name
         time_name_2 = "2nd period"
         time_path=dir_build(date_folder, time_name_2)
         screenshot(time_path, time_str)
 
-    elif timeNow < todayAt (12,30) and timeNow> todayAt(11,20):
+    elif timeNow < todayAt (12,30) and timeNow> todayAt(11,20):                               #change todayAt() to change timeings and time_name = folder name
         time_name_3 = "3rd period"
         time_path=dir_build(date_folder, time_name_3)
         screenshot(time_path, time_str)
 
-    elif timeNow < todayAt (13,40) and timeNow> todayAt(12,30):
+    elif timeNow < todayAt (13,40) and timeNow> todayAt(12,30):                                #change todayAt() to change timeings and time_name = folder name
         time_name_4 = "4th period"
         time_path=dir_build(date_folder, time_name_4)
         screenshot(time_path, time_str)
-    elif timeNow < todayAt (16,10) and timeNow> todayAt(13,40):
+    elif timeNow < todayAt (16,10) and timeNow> todayAt(13,40):                               #change todayAt() to change timeings and time_name = folder name
         time_name_aft= "After_noon p"
         time_path=dir_build(date_folder, time_name_aft)
         screenshot(time_path, time_str)

@@ -13,3 +13,7 @@ This is a python script that let's you take screenshots by pressing F10 and also
   -[Click To Download](https://www.python.org/downloads/)
 - pip installer:
    - install modules :-[Click To Download](https://github.com/edwinsjohn/ScreenGrab-1.0/blob/main/module_install%20.bat)
+
+##After Download
+* create a shortcut file for screengrab.bat
+* take the shortcuts properties and change the shotcut command to F10 and set window as minmized
